@@ -1,0 +1,25 @@
+{
+  "name": "localstorage2",
+  "version": "1.0.0",
+  "description": "The localStorage2 Node package, allow to save key/value pairs in a web browser already encoded in Base64",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rymio/localStorage2.git"
+  },
+  "keywords": [
+    "localStorage",
+    "localStorage2",
+    "base64",
+    "encrypted"
+  ],
+  "author": "Robert Rymarczyk",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rymio/localStorage2/issues"
+  },
+  "homepage": "https://github.com/rymio/localStorage2#readme"
+}
