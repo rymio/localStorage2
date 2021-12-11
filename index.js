@@ -151,6 +151,12 @@ class localStorage2 {
 
 }
 
+module.exports.removeItem = (key) => {
+   
+    return  localStorage.removeItem(Base64.encode(key));
+
+}
+
 module.exports.clear= () => {
    
     return;
