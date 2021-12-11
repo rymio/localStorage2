@@ -1,6 +1,6 @@
 {
   "name": "@rrymm/localstorage2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The ReacjJS Base64 localStorage2 package, allow to save key/value pairs in a web browser, already encoded in Base64",
   "main": "index.js",
   "scripts": {
