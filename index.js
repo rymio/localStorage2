@@ -138,18 +138,18 @@ class localStorage2 {
 
   
 
-  exports.setItem = (key,value) => {
+  module.exports.setItem = (key,value) => {
     return (localStorage.setItem(Base64.encode(key),Base64.encode(value)));
     
   }
 
-  exports.getItem = (key) => {
+  module.exports.getItem = (key) => {
    
     return  Base64.decode(localStorage.getItem(Base64.encode(key)));
 
 }
 
-exports.clear= () => {
+module.exports.clear= () => {
    
     return;
 
