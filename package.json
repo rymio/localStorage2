@@ -2,7 +2,7 @@
   "name": "@rrymm/localstorage2",
   "version": "1.0.2",
   "description": "The ReacjJS localStorage2 package, allow to save key/value pairs in a web browser, already encoded in Base64",
-  "main": "index",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

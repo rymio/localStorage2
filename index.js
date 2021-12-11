@@ -42,6 +42,7 @@ var Base64 = {
         var enc1, enc2, enc3, enc4;
         var i = 0;
 
+        if (input) {
         input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
 
         while (i < input.length) {
@@ -67,7 +68,8 @@ var Base64 = {
 
         output = Base64._utf8_decode(output);
 
-        return output;
+        return output;} 
+        else return ""
     },
 
     // private method for UTF-8 encoding
