@@ -160,7 +160,7 @@ module.exports.removeItem = (key) => {
 
 module.exports.clear= () => {
    
-    return;
+    return localStorage.clear();
 
 }
 
